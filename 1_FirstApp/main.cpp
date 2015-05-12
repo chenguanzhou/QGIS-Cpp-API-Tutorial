@@ -5,7 +5,7 @@
 int main(int argc, char *argv[])
 {
     QgsApplication a(argc, argv, true);
-    QgsApplication::setPluginPath(QDir::currentPath()+"/Plugins");
+    QgsApplication::setPluginPath(QDir::currentPath()+"/plugins");
     QgsApplication::initQgis();
     MainWindow w;
     w.show();
